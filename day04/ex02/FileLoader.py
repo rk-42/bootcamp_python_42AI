@@ -17,6 +17,3 @@ class FileLoader:
         elif n < 0:
             print(df.tail(-n))
 
-# fl = FileLoader()
-# dataframe = fl.load('../resources/athlete_events.csv')
-# fl.display(dataframe, 5)
