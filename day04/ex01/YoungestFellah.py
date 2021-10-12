@@ -6,9 +6,5 @@ def youngestfellah(df: pd.DataFrame, year: int) -> dict:
               'm': df['Age'][(df['Sex'] == 'M') & (df['Year'] == year)].min()}
     return mydict
 
-# from FileLoader import FileLoader
-# loader = FileLoader()
-# data = loader.load('../resources/athlete_events.csv')
-# print(youngestfellah(data, 2004))
 
 
